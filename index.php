@@ -15,7 +15,7 @@
         <?php foreach ($template as $key => $value) { ?>
             <div style="display:flex; height:min-content !important;">
                 <?php foreach ($value as $key2 => $value2) { ?>
-                    <div id="<?= $key."-".$key2?>" class="field" style="margin:  0px; padding: 0px;">
+                    <div id="<?= $key."-".$key2?>" class="field" style="margin: 0px; padding: 0px;">
                         <img src="assets/water.png" width="100%" height="100%">
                     </div>
                     <!--/*  <?php if ($value2["ships"] == 1) { ?>
